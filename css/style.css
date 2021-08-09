@@ -1,0 +1,112 @@
+/* common start */
+body{
+    margin: 0;
+    padding-top: 60px;
+
+
+}
+/* common end */
+
+
+/* header start */
+header{
+   
+}
+
+
+.logo{
+  padding-top: 5px ;  
+}
+
+.menu ul li{
+    margin-right: 15px !important;
+}
+
+
+.menu ul li a{
+    font-size: 17px;
+    color: black !important;
+
+
+}
+.menu ul li a:hover{
+    color: #DC3545 !important;
+}
+.menu ul li:last-child{
+    margin-right: 0 !important;
+}
+
+.c_toggler{
+    background-color: #DC3545 !important; 
+    box-shadow: none !important;
+    border: 1px solid #DC3545;
+}
+
+.navbar-toggler .c_icon{
+    color: #fff !important;
+    background-color: #DC3545;
+   
+}
+.c_icon i{
+    font-size: 19px;
+    
+}
+
+
+
+/* header end */
+
+
+
+
+/* utilities */
+
+.btn-custom{
+    
+    background-color: #DC3545 !important ;
+    color: #fff !important;
+    transition: .3s;
+    box-shadow: none;
+    border: 1px solid  #DC3545 !important ;
+    cursor: pointer;
+
+
+
+}
+
+.btn-custom:hover{
+    color: #DC3545 !important;
+    background-color: #fff !important;
+}
+
+
+/* about section start */
+
+.services-item{
+    box-sizing: border-box;
+    transition: .3s;
+    cursor: pointer;
+    
+}
+
+.services-item:hover{
+    transform: scale(.9);
+}
+/* about section end */
+
+
+/* portfolio start */
+
+.portfolio-item{
+    transition: .3s;
+    cursor: pointer;
+}
+
+.portfolio-item:hover{
+    transform: scale(.9);
+}
+/* portfolio end */
+
+
+
+
